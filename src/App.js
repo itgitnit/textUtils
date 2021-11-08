@@ -45,10 +45,10 @@ function App() {
         <Alert alert={alert} />
         <div className="container my-3">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/gh-pages-url">
               <TextForm showAlert={showAlert} heading="Try TextUtils - Word Counter, Character Counter, Remove Extra Spaces...." mode={mode} />
             </Route>
-            <Route exact path="/about">
+            <Route exact path="/gh-pages-url/about">
               <About mode={mode} />
             </Route>
           </Switch>
